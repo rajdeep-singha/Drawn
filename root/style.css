@@ -107,3 +107,52 @@ input[type="color"]{
     font-size: 40px;
     padding-bottom: 10px;
 }
+
+
+
+/* MOBILE RESPONSIVE MEDIA QUERY */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding: 10px;
+        top: auto;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95vw;
+        height: auto;
+        overflow-x: auto;
+    }
+
+    canvas {
+        height: 100dvh;
+        width: 100vw;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 0.5rem 0.8rem;
+    }
+
+    input[type="color"] {
+        width: 50px;
+        height: 35px;
+    }
+
+    #ageOutputId {
+        font-size: 13pt;
+    }
+
+    .emoji {
+        font-size: 30px;
+    }
+}
+
+.nav-wrapper {
+    overflow-x: auto;
+    width: 100vw;
+}
